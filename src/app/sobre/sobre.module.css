@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+}
+
+.paragrafo{
+    color: red;
+}
+
+#unico{
+    color: blue;
+}

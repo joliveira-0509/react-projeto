@@ -1,0 +1,25 @@
+.imagem{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#p{
+    padding-bottom: 24px;
+}
+
+#autor{
+    padding-bottom: 2vmax;
+}
+
+@media (max-width:600px) {
+
+.imagem{
+    margin-top: 20vh;
+    max-width: 500px;
+    height: auto;
+}
+    
+}

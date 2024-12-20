@@ -1,0 +1,78 @@
+.divAcolhida{
+    margin-top: 12vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    position: fixed;
+}
+
+.divAcolhida .conteudo{
+    font-size: 10vw;
+    color: blue;
+    font-weight: bolder;
+}
+
+.divAcolhida p{
+    margin-top: -20px;
+    color: azure;
+    font-family: 20px;
+    font-weight: 900;
+}
+
+.divAcolhida .botao{
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    height: 5vh;
+    padding: 2%;
+    background-color: slateblue;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position: fixed;
+    margin-top: 18vh;
+    
+}
+
+.divAcolhida .botao:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.divName{
+    margin-top: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    width: 100%;
+    height: auto;
+}
+
+.divName .botao{
+    position: fixed;
+    margin-top: 10vh;
+    border-style: none;
+    background-color: blueviolet;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight:bold;
+
+}
+
+.divName .botao:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: rgba(137, 43, 226, 0.932);
+}
+
+.divName .input{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
